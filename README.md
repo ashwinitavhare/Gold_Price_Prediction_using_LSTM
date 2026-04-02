@@ -128,10 +128,10 @@ A long short-term memory architecture (LSTM) is a special type of recurrent neur
 In time-series forecasting, LSTMs are still widely used for predicting future values in sequential data like stock prices and weather patterns. In healthcare, time series data can be analyzed to predict disease progression and treatment outcomes.
 
 ## Core Components of an LSTM Unit:
-Cell State (Long-Term Memory):  A conveyor belt that runs through the entire chain, carrying information across time steps with minimal alteration, acting as the network's long-term memory.
-Forget Gate:  Decides what information from the previous cell state should be thrown away (outputting a number between 0 and 1, where 0 means forget completely).
-Input Gate:  Decides what new information from the current input and previous hidden state should be added to the cell state.
-Output Gate: Filters the cell state to produce the final output (hidden state) for the current time step.
+1 Cell State (Long-Term Memory):  A conveyor belt that runs through the entire chain, carrying information across time steps with minimal alteration, acting as the network's long-term memory.
+2 Forget Gate:  Decides what information from the previous cell state should be thrown away (outputting a number between 0 and 1, where 0 means forget completely).
+3 Input Gate:  Decides what new information from the current input and previous hidden state should be added to the cell state.
+4 Output Gate: Filters the cell state to produce the final output (hidden state) for the current time step.
 
  <img width="674" height="424" alt="image" src="https://github.com/user-attachments/assets/337379e1-41a6-47f7-ba33-9b26c04417c2" />
 
